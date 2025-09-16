@@ -2,39 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Nabha Scholars Teacher Dashboard Design System 
+Educational theme with professional blues and vibrant accents
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Educational Dashboard Theme */
+    --background: 212 15% 97%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Educational Primary - Trust Blue */
+    --primary: 211 91% 40%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 211 91% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Educational Secondary - Professional Gray */
+    --secondary: 212 15% 95%;
+    --secondary-foreground: 215 25% 27%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 212 15% 95%;
+    --muted-foreground: 215 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Educational Accent - Highlight Orange */
+    --accent: 35 91% 55%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Educational Success - Achievement Green */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Educational Warning - Attention Orange */
+    --warning: 35 91% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 25% 88%;
+    --input: 214 25% 88%;
+    --ring: 211 91% 40%;
+
+    /* Educational Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(211 91% 40%), hsl(211 91% 50%));
+    --gradient-success: linear-gradient(135deg, hsl(142 71% 45%), hsl(142 71% 55%));
+    --gradient-warning: linear-gradient(135deg, hsl(35 91% 55%), hsl(35 91% 65%));
+
+    /* Educational Shadows */
+    --shadow-soft: 0 2px 8px -2px hsl(215 25% 27% / 0.1);
+    --shadow-medium: 0 4px 16px -4px hsl(215 25% 27% / 0.15);
+    --shadow-strong: 0 8px 32px -8px hsl(215 25% 27% / 0.2);
 
     --radius: 0.5rem;
 

@@ -1,0 +1,130 @@
+{
+  "reportDate": "2025-09-15",
+  "dailyDigest": {
+    "activeStudents": 45,
+    "classAverageScore": 72,
+    "lessonsCompleted": 120,
+    "totalTime": "55h 30m",
+    "topStruggleConcept": "Fractions - Question #3: Converting mixed numbers to improper fractions"
+  },
+  "subjectPerformance": [
+    {"subject": "Mathematics", "score": 65, "icon": "📊"},
+    {"subject": "Science", "score": 85, "icon": "🔬"},
+    {"subject": "English", "score": 78, "icon": "📖"},
+    {"subject": "Social Studies", "score": 71, "icon": "🌍"},
+    {"subject": "Hindi", "score": 82, "icon": "🗣️"}
+  ],
+  "weeklyTrend": [
+    {"day": "Mon", "score": 68},
+    {"day": "Tue", "score": 70},
+    {"day": "Wed", "score": 74},
+    {"day": "Thu", "score": 69},
+    {"day": "Fri", "score": 72},
+    {"day": "Sat", "score": 75},
+    {"day": "Sun", "score": 72}
+  ],
+  "studentReports": [
+    {
+      "id": 1, 
+      "name": "Raju Kumar", 
+      "lastActive": "2025-09-15", 
+      "avgScore": 35,
+      "timeOnApp": "45m", 
+      "flag": "Scored below 40% on 2 consecutive days",
+      "flagType": "performance"
+    },
+    {
+      "id": 2, 
+      "name": "Simran Kaur", 
+      "lastActive": "2025-09-15", 
+      "avgScore": 92,
+      "timeOnApp": "65m", 
+      "flag": null,
+      "flagType": null
+    },
+    {
+      "id": 3, 
+      "name": "Amit Sharma", 
+      "lastActive": "2025-09-14", 
+      "avgScore": 78,
+      "timeOnApp": "32m", 
+      "flag": "Inactive for 1 day",
+      "flagType": "inactive"
+    },
+    {
+      "id": 4, 
+      "name": "Priya Singh", 
+      "lastActive": "2025-09-15", 
+      "avgScore": 88,
+      "timeOnApp": "58m", 
+      "flag": null,
+      "flagType": null
+    },
+    {
+      "id": 5, 
+      "name": "Rahul Gupta", 
+      "lastActive": "2025-09-15", 
+      "avgScore": 42,
+      "timeOnApp": "28m", 
+      "flag": "Low engagement - less than 30 minutes",
+      "flagType": "engagement"
+    },
+    {
+      "id": 6, 
+      "name": "Anita Patel", 
+      "lastActive": "2025-09-15", 
+      "avgScore": 91,
+      "timeOnApp": "72m", 
+      "flag": null,
+      "flagType": null
+    }
+  ],
+  "helpRequests": [
+    {
+      "id": 1,
+      "studentName": "Amit Sharma", 
+      "lesson": "Photosynthesis - Chapter 3", 
+      "date": "2025-09-15",
+      "subject": "Science",
+      "message": "I don't understand how plants make their own food"
+    },
+    {
+      "id": 2,
+      "studentName": "Raju Kumar", 
+      "lesson": "Fractions - Mixed Numbers", 
+      "date": "2025-09-15",
+      "subject": "Mathematics",
+      "message": "Converting mixed numbers is confusing"
+    },
+    {
+      "id": 3,
+      "studentName": "Priya Singh", 
+      "lesson": "English Grammar - Tenses", 
+      "date": "2025-09-14",
+      "subject": "English",
+      "message": "When to use past perfect tense?"
+    }
+  ],
+  "availableLessons": {
+    "Mathematics": [
+      {"id": "math_1", "title": "Basic Addition", "chapter": "Chapter 1"},
+      {"id": "math_2", "title": "Subtraction", "chapter": "Chapter 2"},
+      {"id": "math_3", "title": "Multiplication Tables", "chapter": "Chapter 3"},
+      {"id": "math_4", "title": "Division Basics", "chapter": "Chapter 4"},
+      {"id": "math_5", "title": "Fractions Introduction", "chapter": "Chapter 5"}
+    ],
+    "Science": [
+      {"id": "sci_1", "title": "Plant Life Cycle", "chapter": "Chapter 1"},
+      {"id": "sci_2", "title": "Animal Habitats", "chapter": "Chapter 2"},
+      {"id": "sci_3", "title": "Photosynthesis", "chapter": "Chapter 3"},
+      {"id": "sci_4", "title": "Water Cycle", "chapter": "Chapter 4"}
+    ],
+    "English": [
+      {"id": "eng_1", "title": "Reading Comprehension", "chapter": "Chapter 1"},
+      {"id": "eng_2", "title": "Grammar Basics", "chapter": "Chapter 2"},
+      {"id": "eng_3", "title": "Vocabulary Building", "chapter": "Chapter 3"},
+      {"id": "eng_4", "title": "Creative Writing", "chapter": "Chapter 4"}
+    ]
+  },
+  "tomorrowQueue": []
+}
